@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="w-full h-screen bg-zinc-800 text-white p-10">
+        <h1 class="text-center text-4xl mb-5 text-orange-500">Tangle🍂</h1>
+        <h3 class=" text-center text-2xl mb-5">Upload profile-picture</h3>
+
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input class="bg-transparent rounded-md" type="file" name="image">
+            <input class=" m-2 p-2  text-black bg-yellow-500 border-none rounded-md" type="submit" value="Upload">
+        </form>
+
+    </div>
+</body>
+
+</html>
